@@ -60,7 +60,7 @@ function App(){
       <div className="sideLabel">WORKSPACE</div>
       {nav.map(([label,Icon])=><button key={label} className={"navItem "+(page===label?"active":"")} onClick={()=>{setPage(label);setMenu(false)}}><Icon size={19}/><span>{label}</span></button>)}
       <div className="sideBottom">
-        <div className="demoNote">Independent dashboard<br/><span>Fictional account data</span></div>
+        <div className="demoNote">Funder<br/><span>Pro</span></div>
       </div>
     </aside>
 
