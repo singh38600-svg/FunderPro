@@ -67,7 +67,7 @@ function App(){
     <main className="main">
       <header className="topbar">
         <button className="iconBtn mobileMenu" onClick={()=>setMenu(!menu)}><Menu/></button>
-        <div className="brand mobileBrand"><div className="brandMark">RT</div><span>Rohit<span className="blue">Trader</span></span></div>
+        <div className="brand mobileBrand"><div className="brandMark">FP</div><span>Funder<span className="blue">Pro</span></span></div>
         <div className="topActions">
           <button className="iconBtn" onClick={()=>setPage("Notifications")}><Bell size={20}/>{notifications>0&&<b>{notifications}</b>}</button>
           <button className="profilePill" onClick={()=>setPage("Profile")}><span>R</span></button>
