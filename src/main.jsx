@@ -55,7 +55,7 @@ function App(){
   return <div className="app">
     <aside className={"sidebar "+(menu?"open":"")}>
       <div className="brand">
-        <div className="brandMark">RT</div><span>Rohit<span className="blue">Trader</span></span>
+        <div className="brandMark">FP</div><span>Funder<span className="blue">Pro</span></span>
       </div>
       <div className="sideLabel">WORKSPACE</div>
       {nav.map(([label,Icon])=><button key={label} className={"navItem "+(page===label?"active":"")} onClick={()=>{setPage(label);setMenu(false)}}><Icon size={19}/><span>{label}</span></button>)}
